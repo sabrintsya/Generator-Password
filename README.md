@@ -23,13 +23,13 @@ Password-Generator/
 ├── index.html      # Main HTML file
 ├── index.js        # JavaScript logic
 ├── README.md       # Documentation
-└── assets/         # (Optional) Folder for additional resources
+
 ```
 
 ## 🔧 Installation & Usage
 1. **Clone Repository**
    ```sh
-   git clone https://github.com/yourusername/password-generator.git
+   git clone https://github.com/sabrintsya/Generator-Password.git
    cd password-generator
    ```
 2. **Open `index.html` in Browser**
