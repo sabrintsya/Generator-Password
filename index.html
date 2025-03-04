@@ -20,10 +20,12 @@
                 <label for="passwordLength" class="text-uppercase fw-bold ">Panjang Password</label>
                 <input class="form-control form-control-lg" id="passwordLength" type="number" />
                 <label for="password" class="text-uppercase fw-bold "> Password</label>
-                <input class="form-control form-control-lg" id="password" type="password" />
+                <input class="form-control form-control-lg" id="password" disabled  />
                 <div class="d-flex gap-2 mt-2">
-                    <button class="btn btn-primary text-uppercase fw-bold btn-lg">Generate Password</button>
-                    <button class="btn btn-outline-primary text-uppercase fw-bold btn-lg">Save Password</button>
+                    <button onclick="getPassword()" class="btn btn-primary text-uppercase fw-bold btn-lg mt-2">Generate Password</button>
+                    <a class="btn btn btn-outline-primary text-uppercase fw-bold btn-lg mt-2"
+                    onclick="savePassword()" id="saveButton">SAVE
+                    PASSWORD</a>
                 </div>
             </div>
         </div>
