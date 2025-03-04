@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- file css boostrap here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center
+    align-items-center min-vh-100 ">
+        <div class="d-flex flex-column 
+        text-primary">
+            <h1 class="fw-bold"> PASSWORD GENERATOR </h1>
+            <div class="d-flex flex-column gap-2 mt-2">
+                <label for="passwordLength" class="text-uppercase fw-bold ">Panjang Password</label>
+                <input class="form-control form-control-lg" id="passwordLength" type="number" />
+                <label for="password" class="text-uppercase fw-bold "> Password</label>
+                <input class="form-control form-control-lg" id="password" type="password" />
+                <div class="d-flex gap-2 mt-2">
+                    <button class="btn btn-primary text-uppercase fw-bold btn-lg">Generate Password</button>
+                    <button class="btn btn-outline-primary text-uppercase fw-bold btn-lg">Save Password</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- file javascript here -->
+    <script src="index.js"></script>
+    <!-- file boostrap css cdn here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
